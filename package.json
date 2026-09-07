@@ -1,0 +1,10 @@
+{
+  "name": "srnc-music-video-suite",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev": "echo \"Use the Premiere UXP Developer Tool for the Premiere panel\"",
+    "validate": "node packages/core/validate-presets.mjs"
+  }
+}
